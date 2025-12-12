@@ -2,7 +2,8 @@ package main
 
 import (
 	_ "aoc/day1"
-	"aoc/day3"
+	_ "aoc/day3"
+	"aoc/day6"
 )
 
 func main() {
@@ -10,5 +11,6 @@ func main() {
 	// day1.DayOnePartTwo()
 
 	// day3.DayThreePartOne()
-	day3.DayThreePartTwo()
+	// day3.DayThreePartTwo()
+	day6.DaySixPartOne()
 }
